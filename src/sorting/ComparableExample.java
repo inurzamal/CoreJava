@@ -32,7 +32,7 @@ class Employee1  implements Comparable<Employee1>{
 
 	@Override
 	public String toString() {
-		return "Employee1 [id=" + id + ", name=" + name + ", salary=" + salary + "]" +"\n";
+		return "Employee1 [id=" + id + ", name=" + name + ", salary=" + salary + "]";
 	}
 }
 
@@ -54,7 +54,7 @@ public class ComparableExample {
 		}
 		
 		//System.out.println(al.toString());
-		//al.forEach(i->System.out.println(al.toString()));
+		//al.forEach(i->System.out.println(i));
 
 	}
 
