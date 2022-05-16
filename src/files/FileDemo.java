@@ -20,7 +20,7 @@ public class FileDemo {
 			sb.append(line); // appending line data to buffer obj
 			line = br.readLine(); // reading next line data
 		}
-		
+		br.close();
 		s = sb.toString();
 		
 		s = s.replace("{FNAME}", "Nur");
