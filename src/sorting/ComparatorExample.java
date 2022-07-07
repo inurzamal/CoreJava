@@ -24,12 +24,7 @@ class AgeComparator implements Comparator<Employee2>{
 	@Override
 	public int compare(Employee2 s1, Employee2 s2) {
 		
-		if(s1.salary == s2.salary)
-			return 0;
-		else if(s1.salary > s2.salary)
-			return 1;
-		else 
-			return -1;
+		return (int) (s1.salary-s2.salary);
 	}
 }
 
@@ -64,7 +59,5 @@ public class ComparatorExample {
 		Collections.sort(al, new NameComparator());
 		
 		al.forEach(i->System.out.println(i.id + " " + i.name+ " "+i.salary));
-
 	}
-
 }

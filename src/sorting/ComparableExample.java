@@ -30,10 +30,10 @@ class Employee1  implements Comparable<Employee1>{
 		return (int) (this.salary - e.salary);	
 	}
 
-	@Override
-	public String toString() {
-		return "Employee1 [id=" + id + ", name=" + name + ", salary=" + salary + "]";
-	}
+//	@Override
+//	public String toString() {
+//		return "Employee1 [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+//	}
 }
 
 public class ComparableExample {
@@ -55,7 +55,5 @@ public class ComparableExample {
 		
 		//System.out.println(al.toString());
 		//al.forEach(i->System.out.println(i));
-
 	}
-
 }
