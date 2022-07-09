@@ -1,6 +1,6 @@
 package strings;
 
-public class ReserseStringEx {
+public class ReverseStringEx {
 	
 	private String reverse(String str) {		
 		char ch[] = str.toCharArray();	
@@ -12,7 +12,7 @@ public class ReserseStringEx {
 	}
 
 	public static void main(String[] args) {
-		ReserseStringEx r = new ReserseStringEx();
+		ReverseStringEx r = new ReverseStringEx();
 		System.out.println(r.reverse("hello"));
 	}
 }
