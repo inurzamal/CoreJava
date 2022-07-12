@@ -10,12 +10,14 @@ public class GarbageCollectionEx {
 		
 		//calling garbage collector manually
 		System.gc(); // gc() will call finalize() method
+		//Runtime.getRuntime().gc();
 		
 		System.out.println("End...");
 	}
 	
-	@Override protected void finalize() {
-		System.out.println("finalize() method is called- proved");
+	@Override 
+	protected void finalize() {
+		System.out.println("finalize() method is called");
 	}
 
 }
