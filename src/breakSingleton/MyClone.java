@@ -1,3 +1,4 @@
+package breakSingleton;
 
 public class MyClone implements Cloneable{
 	
@@ -5,5 +6,4 @@ public class MyClone implements Cloneable{
 	protected Object clone() throws CloneNotSupportedException {
 		return super.clone();
 	}
-
 }

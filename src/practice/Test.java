@@ -1,4 +1,4 @@
-package demo;
+package practice;
 
 class A {
 
