@@ -1,3 +1,4 @@
+package interview;
 
 class Singleton {
 	

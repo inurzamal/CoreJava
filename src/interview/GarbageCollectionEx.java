@@ -1,3 +1,4 @@
+package interview;
 public class GarbageCollectionEx {
 
 	public static void main(String[] args) {
