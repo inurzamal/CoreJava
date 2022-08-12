@@ -1,3 +1,4 @@
+package interview;
 // Java Program to Illustrate How Static block is Called
 
 class Test {
