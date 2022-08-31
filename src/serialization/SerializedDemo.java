@@ -22,17 +22,16 @@ public class SerializedDemo {
 
 	public static void main(String[] args) {
 		try {
-			Student s1 = new Student(211, "ravi");
+			Student s1 = new Student(101, "Rani");
 			FileOutputStream fout = new FileOutputStream("f.txt");
 			ObjectOutputStream out = new ObjectOutputStream(fout);
 			out.writeObject(s1);
 			out.flush();
 			out.close();
-			System.out.println("success");
+			System.out.println("Object Serialized successfully");
 		} 
 		catch (Exception e) {
 			System.out.println(e);
 		}
 	}
-
 }
