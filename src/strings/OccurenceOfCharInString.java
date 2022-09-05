@@ -1,12 +1,13 @@
 package strings;
 
 import java.util.HashMap;
+import java.util.Map;
 
 class OccurenceOfCharInString {
 	
 	static void characterCount(String str) {
 
-		HashMap<Character, Integer> hmap = new HashMap<Character, Integer>();
+		Map<Character, Integer> hmap = new HashMap<Character, Integer>();
 
 		char[] chArray = str.toCharArray(); // Converting given string to char array
 
